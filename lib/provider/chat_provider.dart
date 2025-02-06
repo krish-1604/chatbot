@@ -9,7 +9,7 @@ class ChatProvider extends ChangeNotifier {
 
   ChatProvider() : _model = GenerativeModel(
     model: 'gemini-2.0-flash',
-    apiKey: '',
+    apiKey: 'Enter your API KEY',
   );
 
   List<ChatMessage> get messages => _messages;
